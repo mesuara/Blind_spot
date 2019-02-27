@@ -13,68 +13,31 @@
   </head>
   <body>
     <div id='pagediv'>
-
-
       <div id='logo' class='module'>
         <div class='logotext'>
-        <h1>Blind Spot!</h1>
-        <p id="quotes"></p>
-        </div>
-      </div>
+          <h1>Blind Spot!</h1>
+          <p id="quotes"></p>
 
-      <br>
-      <br>
 
-      <div container-fluid class='module'>
-        <div class="row module">
-          <div class="col-md-3">
-            <h1 id="about">About</h1>
-            <p id="aboutDesc">Blind spot is a low cost do it yourself iOT security system that utilizes a Raspberry Pi, Google, and Alexa to measure and report distance.</p>
-          </div>
 
-           <div class="col-md-6 module">
-            <img id="teamwork" src="IMG-2397.JPG"/>
-          </div>
 
-          <div class="col-md-3 module">
-            <h1 id="process">Process</h1>
-            <ol>
-              <li>Raspberry Pi: Gathering Data</li>
-              <li>Google Sheets: Persists Data</li>
-              <li>Alexa: Query Data</li>
-              <li>Website: View Data</li>
-            </ol>
-          </div>
+          <div  class="row module apiWrapper">
+            <div class="col-md-5">
+              <h2 class="apiTitle">Currently Spotted Time</h2>
+              <h3 class="apiValue" id="time"></h3>
+            </div>
 
-         
-            
-            
-        </div>
+            <div class="col-md-2">
+              <a href="mainPage.html"><button class="btn" >See More</button></a>
+            </div>
 
-        <br>
-        <br>  
-
-        <div class="row module">
-          <h1>Prototype</h1>
-
-          <div class="col-md-8">
-            <img id="alexaImg" src="IMG-2394.JPG"/>
-          </div>
-
-          <div class="col-md-4">
-            <h2>Distance of current object</h2>
-            <div>
-              <h3 id="time"></h3>
-              <h3 id="distance"></h3>
-               </div>
+             <div class="col-md-5">
+              <h2 class="apiTitle">Currrently Spotted Distance</h2>
+              <h3 class="apiValue" id="distance"></h3>
+            </div>
           </div>
         </div>
       </div>
-     
-      <footer>
-        Contact
-      </footer>
-
 
     </div>
     
