@@ -72,7 +72,8 @@ win.scroll(function(event) {
 });
 var time = ''
 var distance = ''
-
+var label = []
+var all_distance = []
 
 axios.get("https://spreadsheets.google.com/feeds/list/1IHFFv4Se-S40YUEE4RAevSQzKCRf6AzlEkRVA4-cJSo/od6/public/values?alt=json")
     .then((response) => {
@@ -80,12 +81,50 @@ axios.get("https://spreadsheets.google.com/feeds/list/1IHFFv4Se-S40YUEE4RAevSQzK
 
         let data = response.data
         console.log(data)
+        entris = data.feed.entry
       time =data.feed.entry[0].gsx$time.$t
       distance =data.feed.entry[0].gsx$data.$t
+      for (let i =0; i < 5; i++){
+        label.push(entris[i].gsx$time.$t)
+        all_distance.push(entris[i].gsx$data.$t)
+      }
+
+      for(var i=0; i<all_distance.length; i++) { all_distance[i] = +all_distance[i]; } 
       console.log(distance)
       console.log(time)
-      
+      console.log(entris)
+      console.log(label)
+      console.log(all_distance)
     }).then(() => {
       $('#time').append(time);
       $('#distance').append(distance);
+      
+
+      var ctx = document.getElementById("myChart");
+  var data = {
+    labels: label,
+    datasets: [{
+        data: all_distance
+    }]
+}
+
+var myLineChart = new Chart(ctx, {
+  type: 'line',
+  data: data,
+  options: options
+});
+
+ var options = {
+  scale: {
+      // Hides the scale
+      display: false
+  }
+}
+
+$('#chart').append(myLineChart)
+
+
   })
+
+  
+
