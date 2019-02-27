@@ -70,3 +70,22 @@ win.scroll(function(event) {
   });
   
 });
+var time = ''
+var distance = ''
+
+
+axios.get("https://spreadsheets.google.com/feeds/list/1IHFFv4Se-S40YUEE4RAevSQzKCRf6AzlEkRVA4-cJSo/od6/public/values?alt=json")
+    .then((response) => {
+
+
+        let data = response.data
+        console.log(data)
+      time =data.feed.entry[0].gsx$time.$t
+      distance =data.feed.entry[0].gsx$data.$t
+      console.log(distance)
+      console.log(time)
+      
+    }).then(() => {
+      $('#time').append(time);
+      $('#distance').append(distance);
+  })
