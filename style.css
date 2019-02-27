@@ -18,7 +18,7 @@ h1{
 #logo{
    
         background-image: url('logoinfront.jpg');
-        height: 850px;
+        height: 950px;
         background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
@@ -51,4 +51,16 @@ h1{
   height: 350px;
   margin-left: 50px;
 
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
 }
