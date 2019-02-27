@@ -29,6 +29,16 @@ h1{
 }
 
 #process{
+  background-image: url('IMG-2394.JPG');
+        height: 950px;
+        background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+}
+
+
+#process{
   text-align: left;
 }
 
@@ -64,4 +74,52 @@ h1{
 
 @keyframes come-in {
   to { transform: translateY(0); }
+}
+
+.apiValue {
+  text-align: center;
+  color: white;
+
+}
+
+
+.apiTitle{
+   text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+.btn {
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  margin-top: 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: purple;
+  opacity: 0.5;
+  color: white;
+}
+
+#problem{
+  text-align: center;
+}
+
+#solution{
+  margin-top: 35px;
+  text-align: center;
 }
