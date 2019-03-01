@@ -129,7 +129,8 @@ h1{
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 25px;
+  margin-top: 0px;
+  padding:10px;
 }
 
 #solutionPic{
@@ -137,14 +138,21 @@ h1{
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-top: 25px;
+  margin-top: 0px;
+  padding:10px;
 }
 
 #problemContainer{
   border: 10px solid black;
+  
 }
 
 
 #solutionContainer{
+  border: 10px solid black;
+  
+}
 
+#mainDiv{
+  padding: 20px;
 }
