@@ -28,7 +28,7 @@ Want to keep up with the development of Blind Spot?  https://github.com/mesuara/
 
 ## Endpoints:
 
-Coming Soon
+Coming Soon!
 
 <!-- #### `coach`
 
