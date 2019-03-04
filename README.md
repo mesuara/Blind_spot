@@ -1,6 +1,6 @@
 ## Blind Spot
 <!-- test on line #3 -->
-![Blind](jumper.png)
+![Blind](IMG-2394.JPG)
 
 ## Live Demo
 Link: https://mesuara.github.io/Blind_spot/
@@ -17,18 +17,12 @@ Current MVP version 0.1 A-🛤️ </br>
 Want to keep up with the development of Blind Spot?  https://github.com/mesuara/Blind_spot
 
 ## Screenshots
-<!-- ![main page](/public/assets/img/highlander_home.png) -->
-<p>
-    <img src="IMG-2397.JPG" width="220" height="240" />
-</p>
-
-<p>
-    <img src="IMG-2400.JPG" width="220" height="240" />
-</p>
+![Mesuara & Elvis working](IMG-2397.JPG)
+![Mesuara & Elvis working](IMG-2400.JPG)
 
 ## Endpoints:
 
-Coming Soon!
+Coming Soon!!
 
 <!-- #### `coach`
 
