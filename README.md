@@ -1,9 +1,6 @@
 ## Blind Spot
 <!-- test on line #3 -->
-![Blind](pictures/jumper.png) test
-<p>
-    <img src="pictures/jumper.png" width="220" height="240" />
-</p>
+![Blind](jumper.png)
 
 ## Live Demo
 Link: https://mesuara.github.io/Blind_spot/
@@ -22,11 +19,11 @@ Want to keep up with the development of Blind Spot?  https://github.com/mesuara/
 ## Screenshots
 <!-- ![main page](/public/assets/img/highlander_home.png) -->
 <p>
-    <img src="pictures/IMG-2397.JPG" width="220" height="240" />
+    <img src="IMG-2397.JPG" width="220" height="240" />
 </p>
 
 <p>
-    <img src="pictures/IMG-2400.JPG" width="220" height="240" />
+    <img src="IMG-2400.JPG" width="220" height="240" />
 </p>
 
 ## Endpoints:
