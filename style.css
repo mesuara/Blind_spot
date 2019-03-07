@@ -18,9 +18,9 @@ h1{
 
 #logo{
    
-        background-image: url('logoinfront.jpg');
-        height: 950px;
-        background-size:     cover;                      /* <------ */
+    background-image: url('Images/logoinfront.jpg');
+    height: 950px;
+    background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
     opacity: 0.5;
@@ -29,7 +29,7 @@ h1{
 }
 
 #process{
-  background-image: url('IMG-2394.JPG');
+  background-image: url('Images/IMG-2394.JPG');
         height: 950px;
         background-size:     cover;                     
     background-repeat:   no-repeat;
