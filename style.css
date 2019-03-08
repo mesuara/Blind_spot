@@ -133,10 +133,10 @@ h1{
   float: right;
   /* opacity: 0.8; */
   background-repeat: no-repeat;
-  width: 35%;
-  height: 35%;
-  margin-top: 60px;
-  margin-left: 1000px;
+  width: 45%;
+  height: 45%;
+  margin-top: 130px;
+  margin-left: 630px;
   position: absolute;
   top: 4.7em;
   padding:10px;
@@ -145,9 +145,9 @@ h1{
 #solutionPic{
   /* opacity: 0.10; */
   background-repeat: no-repeat;
-  width: 35%;
-  height: 35%;
-  margin-top: 500px;
+  width: 45%;
+  height: 45%;
+  margin-top: 700px;
   margin-left: 130px;
   padding:10px;
   top: 4.7em;
