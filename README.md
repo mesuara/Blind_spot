@@ -1,6 +1,6 @@
 ## Blind Spot
 <!-- test on line #3 -->
-![Blind](IMG-2394.JPG)
+![Blind](Images/IMG-2394.JPG)
 
 ## Live Demo
 Link: https://mesuara.github.io/Blind_spot/
