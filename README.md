@@ -1,6 +1,6 @@
 ## Blind Spot
 <!-- test on line #3 -->
-![Blind](IMG-2394.JPG)
+![Blind](Images/IMG-2394.JPG)
 
 ## Live Demo
 Link: https://mesuara.github.io/Blind_spot/
@@ -17,8 +17,8 @@ Current MVP version 0.1 A-🛤️ </br>
 Want to keep up with the development of Blind Spot?  https://github.com/mesuara/Blind_spot
 
 ## Screenshots
-![Mesuara & Elvis working](IMG-2397.JPG)
-![Mesuara & Elvis working](IMG-2400.JPG)
+![Mesuara & Elvis working](Images/IMG-2397.JPG)
+![Mesuara & Elvis working](Images/IMG-2400.JPG)
 
 ## Endpoints:
 
